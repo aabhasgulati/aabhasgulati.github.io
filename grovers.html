@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="LK Grover">
+  <title>A fast quantum mechanical algorithm for database search</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">A fast quantum mechanical algorithm for database search</h1>
+  <p class="author">LK Grover</p>
+</section>
+
+<section id="overview" class="title-slide slide level1">
+<h1>Overview</h1>
+<p>This presentation will give an idea about Grover’s algorithm which is faster than the classical algorithm for searching through a unsorted database!</p>
+</section>
+
+<section>
+<section id="classical-searching" class="title-slide slide level1">
+<h1>Classical Searching</h1>
+<ul>
+<li>To sort out through an unstructured database we can easily see that the algorithm must be of <span class="math inline">\(O(n)\)</span></li>
+<li>To see this, to attain a probability <span class="math inline">\(\frac{1}{2}\)</span> of a match the database has to be queried on average <span class="math inline">\(N/2\)</span> times - since <span class="math inline">\(\frac{1}{N} \times \frac{N}{2} = \frac{1}{2}\)</span></li>
+</ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<ul>
+<li>To make connection with the quantum algorithm, we introduce the idea of the oracle which takes up the database entry and gives out <span class="math inline">\(C(S) = 0\)</span> for entry which doesn’t match, and <span class="math inline">\(C(S) = 1\)</span> for entry which does.</li>
+</ul>
+</section></section>
+<section id="grovers-algorithm" class="title-slide slide level1">
+<h1>Grover’s Algorithm</h1>
+
+</section>
+
+<section>
+<section id="welsh-hadamard-transform" class="title-slide slide level1">
+<h1>Welsh Hadamard Transform</h1>
+<ul>
+<li>The Welsh Hadamard Transform on <span class="math inline">\(n\)</span> qubits is defined as <span class="math inline">\(H^{\otimes n}\)</span> where <span class="math inline">\(H\)</span> is the Hadamard transform on one qubit.</li>
+</ul>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<ul>
+<li><p><span class="math inline">\(H\)</span> is defined by <span class="math display">\[    
+\begin{pmatrix}
+  \frac{1}{\sqrt{2}} &amp; \frac{1}{\sqrt{2}} \\
+  \frac{1}{\sqrt{2}} &amp;  - \frac{1}{\sqrt{2}} 
+\end{pmatrix}
+\]</span></p></li>
+<li><p>The important point to note here is that the tensor product will lead to the <span class="math inline">\(W_{ij} = (-1)^{i.j} \times 2^{-\frac{n}{2}}\)</span> where i and j are the bitstrings representing the basis.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="the-database-problem" class="title-slide slide level1">
+<h1>The database problem</h1>
+<ul>
+<li>Let there be N entries in the database, and each entry be of the form of <span class="math inline">\(\ket{apple} \otimes \ket{x_1 x_2.. x_n}\)</span> where <span class="math inline">\(n\)</span> is the number of qubits required to have N states</li>
+</ul>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<ul>
+<li>There exists an oracle which can read the state <span class="math inline">\(S \in H_a\)</span> and give two outcomes <span class="math inline">\(C(S) = 0\)</span> and C <span class="math inline">\((S) = 1\)</span> for unmatched state and matched ket!</li>
+<li>Our (Grover’s) goal is to find out the state <span class="math inline">\(S_v\)</span> for which C(S) = 1 and by measuring it, we can know of the index of the entry.</li>
+</ul>
+</section></section>
+<section>
+<section id="the-algorithm" class="title-slide slide level1">
+<h1>The algorithm</h1>
+<ul>
+<li><p>Making a equal superposition of all states <span class="math inline">\(\implies v_i = \frac{1}{\sqrt{N}}\)</span>! This can be accomplished by making a W transform on <span class="math inline">\(\ket{00...}\)</span></p></li>
+<li><p>The second step is the main algorithm consisting of two unitary operators applied on this state and repeated <span class="math inline">\(O(\sqrt{N})\)</span> times</p></li>
+<li><p>Sample the resulting state. This will give <span class="math inline">\(S_v\)</span> with probability <span class="math inline">\(\geq \frac{1}{2}\)</span></p></li>
+</ul>
+</section>
+<section id="unitary-operator" class="slide level2">
+<h2>Unitary Operator</h2>
+<p>The total unitary operator consists of two parts</p>
+<ul>
+<li><span class="math inline">\(U_1 \ket{S} = (-1)^{C(S)} \ket{S}\)</span> This is what is the oracle operator, and has to be implemented by a unitary gate which is “controlled” by the oracle.</li>
+<li>The second operation is called the diffusion transform, which consists of <span class="math inline">\(WRW\)</span> where W is the Welsh Hadamard operation, and <span class="math inline">\(R = - \mathcal{I} + 2P\)</span> where <span class="math inline">\(P = \ket{1} \bra{1}\)</span> in states labelled as <span class="math inline">\([1,N]\)</span></li>
+</ul>
+</section>
+<section id="d-leads-to-inversion-about-average" class="slide level2">
+<h2>D leads to inversion about average!</h2>
+<ul>
+<li><p>Here is the crux of the algorithm the D operator</p></li>
+<li><p>As we see the <span class="math inline">\(D = - \mathcal{I} + 2P&#39;\)</span> operator, where <span class="math inline">\(P&#39;\)</span> can easily be seen to be of the form <span class="math inline">\(P_{ij} = \frac{1}{N}\)</span></p></li>
+<li><p><span class="math inline">\(D \mu = - \mathcal{I} \mu + 2P&#39; \mu\)</span></p></li>
+<li><p><span class="math inline">\(\mu_i = - \mu_i + 2A = A + (A - \mu_i)\)</span> which is inversion about average!</p></li>
+</ul>
+</section>
+<section id="voila" class="slide level2">
+<h2>Voila</h2>
+<ul>
+<li>These two operations in combination with one another lead to the amplitude of the desired state to be negative</li>
+<li>Inverse about the average (which is approximately equal to <span class="math inline">\(\frac{1}{\sqrt{N}}\)</span>) leads to the desired amplitude gain <span class="math inline">\(O(\frac{1}{\sqrt{N}})\)</span> and the other amplitudes which are <em>closer</em> to the average to decrease a small amount!</li>
+</ul>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<ul>
+<li>This can be made quantitative with a theorem that the gain is lower bounded by <span class="math inline">\(\frac{1}{2\sqrt{N}}\)</span> hence there exists a number <span class="math inline">\(M &lt; \sqrt{2N}\)</span> such that <span class="math inline">\(p &gt; \frac{1}{2}\)</span>!</li>
+</ul>
+</section>
+<section id="proofing" class="slide level2">
+<h2>Proof(ing)</h2>
+<p>To make the proof of the theorem discussed previously we use two lemmas</p>
+<ul>
+<li>The probability remains conserved under unitary operations hence <span class="math inline">\((k&#39;)^2 + (N-1)(l&#39;)^2 = k^2 + (N-1)l^2\)</span></li>
+<li>If <span class="math inline">\(k &lt; 0\)</span> and <span class="math inline">\(l &gt; 0\)</span> and <span class="math inline">\(|\frac{k}{l}|&lt; \sqrt{N} \implies\)</span> after <span class="math inline">\(D\)</span> both will be positive for <span class="math inline">\(N &gt; 9\)</span></li>
+</ul>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p>This follows from the fact that after the matrix multiplication,</p>
+<p><span class="math inline">\(k_1 = (\frac{2}{N} - 1) \times k + \frac{2(N-1)}{N} \times l\)</span></p>
+<p>and <span class="math inline">\(l_1 = \frac{2}{N} k + (\frac{N-2}{N}) l\)</span></p>
+</section>
+<section id="proofing-continued" class="slide level2">
+<h2>Proof(ing) continued</h2>
+<p>For the main theorem, let us assume that <span class="math inline">\(0 &lt; k &lt; \frac{1}{\sqrt{2}}\)</span> and the amplitude of the other states is <span class="math inline">\(l &gt; 0\)</span> (which is true of the initial condition)</p>
+<ul>
+<li>Using conservation of probability, we can say that <span class="math inline">\(l &gt; \frac{1}{\sqrt{2N}}\)</span>, and this shows that <span class="math inline">\(\Delta k = -\frac{2k}{N} + 2(1-\frac{1}{N}) \times l &gt; -\frac{2k}{\sqrt{N}} + 2l &gt; \frac{1}{\sqrt{2N}}\)</span></li>
+</ul>
+</section></section>
+<section>
+<section id="concluding-remarks-and-summary" class="title-slide slide level1">
+<h1>Concluding Remarks and Summary</h1>
+<ul>
+<li>We showed that an algorithm which uses quantum mechanical superposition <em>is</em> faster than all classical algorithms for the same task, that is finding out the index of the entry in <strong>unsorted</strong> database.</li>
+</ul>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<ul>
+<li><p>Any quantum mechanical algorithm needs atleast <span class="math inline">\(O(\sqrt{N})\)</span> steps, hence this algorithm is within a constant factor of the fastest algorithm.</p></li>
+<li><p>The operations used in this algorithm like Welsh Hadamard and conditional phase shift are easy to implement.</p></li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+      
+        // Push each slide change to the browser history
+        history: true,
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom	
+        ]
+      });
+    </script>
+    </body>
+</html>
