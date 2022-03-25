@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+
+  /* Title of the resume */
+  h1 {
+      font-size: 45px;
+      color: #757575;
+      text-align:left;
+      margin-bottom:15px;
+  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  /* h2:hover { */
+  /*     background-color: #397249; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:7px;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+
+  /* Blockquotes */
+  blockquote {
+      text-align: left
+  }
+
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+
+  table {
+      width: 100%;
+  }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="aabhas-gulati">Aabhas Gulati</h1>
+<p><a href="mailto:ms18151@iisermohali.ac.in"
+class="email">ms18151@iisermohali.ac.in</a></p>
+<blockquote>
+<p>BS-MS Student at Indian Institute of Science Education and Research
+interested in Quantum Information/Many-Body Physics/Quantum Field Theory
+and Mathematical Physics. Recent interests and projects have been in
+Relativistic Quantum Information and Symmetry and Quantum
+Information.<br />
+—-</p>
+</blockquote>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2018-2023 (expected)</dt>
+<dd>
+<p><strong>BS-MS dual degree, Physics (Minor in Math)</strong>; Indian
+Institute of Science Education and Research (Mohali)</p>
+<p><em>Cumulative Performance Index - 9.41</em></p>
+</dd>
+<dt>2016-2018</dt>
+<dd>
+<p><strong>AISSCE</strong>; DAV Public School (Gurugram, Haryana)</p>
+<p><em>Class 12 - 95.8 %</em></p>
+</dd>
+<dt>2004-2016</dt>
+<dd>
+<p><strong>AISSE</strong> DAV Public School (Gurugram)</p>
+<p>Class 10 - CGPA 10</p>
+</dd>
+</dl>
+<h2 id="experience">Experience</h2>
+<dl>
+<dt><strong>Summer 2021</strong></dt>
+<dd>
+<p><u><em>Causality in Relativistic Quantum Information</em></u></p>
+<p>Project Guide - Dr. Manabendra Nath Bera, DPS, IISER Mohali</p>
+</dd>
+</dl>
+<p>The problem of causality was analysed in 2-level systems coupling
+locally to quantum field/lattice models</p>
+<ul>
+<li>Reviewed the foundational paper <a
+href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.64.052309"
+target="_blank">Causal and localizable quantum operations (David Beckman
+et al)</a></li>
+<li>Reviewed prescriptions of solving Fermi’s two atom problem and
+understanding causality violations.</li>
+<li>Analysed <u>UDW-Detector models</u> and Ion trap models used to
+study entanglement harvesting to see causality violations.</li>
+</ul>
+<dl>
+<dt><strong>Semester 2021</strong></dt>
+<dd>
+<p><u><em>Symmetry and Quantum Information Theory</em></u></p>
+<p>Project Guide - Dr. Manabendra Nath Bera, DPS, IISER Mohali</p>
+</dd>
+</dl>
+<ul>
+<li>Reviewed important papers and PhD thesis in resource theory of
+asymmetry and reference frames.</li>
+<li>Interesting consequences of symmetry leading to
+information-theoretic conservation laws in QM were identified</li>
+</ul>
+<dl>
+<dt><strong>Summer 2020</strong></dt>
+<dd>
+<p><u><em>Review of Quantum Information Theoretic Methods to study
+Neutrino Oscillations</em></u></p>
+<p>Project Guide - Dr. Subhashish Banerjee, DPS, IIT Jodhpur</p>
+</dd>
+</dl>
+<ul>
+<li>Reviewed literature on LGtI inequalities for studying Neutrino/Meson
+systems.</li>
+<li>Ad-Hoc peer-reviewed a journal paper in European Physical Journal C
+for my guide now published as Entropic uncertainty relation in neutrino
+oscillations</li>
+</ul>
+<dl>
+<dt><strong>Summer 2019</strong></dt>
+<dd>
+<p><u><em>Review of Computational Methods to solve Schrodinger
+Equation</em></u></p>
+<p>Project guide - Dr.Ambresh Shivaji, DPS, IISER Mohali</p>
+</dd>
+</dl>
+<ul>
+<li>Reviewed the recent literature in computational methods and
+implemented it on Python.</li>
+<li>We analysed the convergence rates to eigenfunctions and
+eigenvalues.</li>
+<li>We solved some non-analytic potentials and tested the limits of
+perturbation theory.</li>
+</ul>
+<h2 id="experienceskills"><strong>Experience/Skills</strong></h2>
+<p><strong>SWAN Radio Telescope</strong></p>
+<ul>
+<li><p>Member of the SWAN (Sky Watch Array Network)-RRI collaboration
+from IISER Mohali</p></li>
+<li><p>Part of the winning team of the SWAN Radio Imaging
+Challenge</p></li>
+<li><p>Visited RRI Bangalore in Summer 2019 and Winter 2019 to attend
+SWAN Hands-On Camp</p></li>
+</ul>
+<p><strong>Conferences</strong></p>
+<ul>
+<li><p>Attended the annual Vijyoshi Science Camp in IISER
+Bhopal</p></li>
+<li><p>Participated in Quantum Foundations,Theory and Applications -
+2020 held at IISER Mohali</p></li>
+<li><p>Attended Quantum Information Processing 2021/2022</p></li>
+</ul>
+<p><strong>Skills</strong></p>
+<ul>
+<li><p>Scientific Programming and Data Analysis in Python and
+Julia</p></li>
+<li><p>Science Communication</p></li>
+</ul>
+</body>
+</html>
