@@ -148,10 +148,15 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <style type="text/css">
@@ -167,8 +172,7 @@
   /* Whole document */
   body {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 17px;
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
       background: #FFFFFF;
       padding: 10px 10px 10px 10px;
@@ -176,9 +180,9 @@
 
   /* Title of the resume */
   h1 {
-      font-size: 45px;
+      font-size: 55px;
       color: #757575;
-      text-align:left;
+      text-align:center;
       margin-bottom:15px;
   }
   /* h1:hover { */
@@ -202,21 +206,17 @@
       /* This is called "rulecolor" in the ConTeXt stylesheet. */
       background-color: #9CB770;
   }
-  /* h2:hover { */
-  /*     background-color: #397249; */
-  /*     color: #FFFFFF; */
-  /*     text-shadow: 1px 1px 1px #333; */
-  /* } */
 
   /* Definitions */
   dt {
       float: left;
       clear: left;
-      width: 17%;
-      font-weight: bold;
+      width: 15%;
+      font-weight:bold;
   }
   dd {
       margin-left: 17%;
+      margin-right:10%;
       margin-bottom:7px;
   }
   p {
@@ -256,122 +256,128 @@
 </head>
 <body>
 <h1 id="aabhas-gulati">Aabhas Gulati</h1>
+<blockquote>
 <p><a href="mailto:ms18151@iisermohali.ac.in"
 class="email">ms18151@iisermohali.ac.in</a></p>
-<blockquote>
-<p>BS-MS Student at Indian Institute of Science Education and Research
-interested in Quantum Information/Many-Body Physics/Quantum Field Theory
-and Mathematical Physics. Recent interests and projects have been in
-Relativistic Quantum Information and Symmetry and Quantum
-Information.<br />
-—-</p>
 </blockquote>
+<hr />
+<blockquote>
+<p>MS Student at Indian Institute of Science Education and Research,
+Mohali. I am interested in understanding quantum theory and
+thermodynamics through the lens of quantum information and mathematical
+rigor.</p>
+</blockquote>
+<blockquote>
+<p>My present thesis work is on understanding classicality in quantum
+resource theories.</p>
+</blockquote>
+<hr />
 <h2 id="education">Education</h2>
 <dl>
 <dt>2018-2023 (expected)</dt>
 <dd>
-<p><strong>BS-MS dual degree, Physics (Minor in Math)</strong>; Indian
-Institute of Science Education and Research (Mohali)</p>
-<p><em>Cumulative Performance Index - 9.41</em></p>
+<p><strong>BS-MS Dual Degree</strong>; Indian Institute of Science
+Education and Research (Mohali)</p>
+<p><strong>Cumulative Performance Index</strong> : 9.2/10</p>
+<p><strong>Major</strong> : Physics and <strong>Minor</strong> :
+Mathematics</p>
+<p><strong>MS Thesis (working)</strong>: <em>Emergence of classicality
+in quantum resource theories</em></p>
 </dd>
 <dt>2016-2018</dt>
 <dd>
-<p><strong>AISSCE</strong>; DAV Public School (Gurugram, Haryana)</p>
-<p><em>Class 12 - 95.8 %</em></p>
-</dd>
-<dt>2004-2016</dt>
-<dd>
-<p><strong>AISSE</strong> DAV Public School (Gurugram)</p>
-<p>Class 10 - CGPA 10</p>
+<p><strong>AISSCE</strong>, DAV Public School (Gurugram)</p>
+<p><em>Class 12</em> : 95.8%</p>
 </dd>
 </dl>
 <h2 id="experience">Experience</h2>
 <dl>
+<dt><strong>MS Thesis (2022-Present)</strong></dt>
+<dd>
+<p><strong>Emergence of classicality in resource theories</strong></p>
+<p><em>Project Guide - Dr. Manabendra Nath Bera, DPS, IISER
+Mohali</em></p>
+<ul>
+<li>Understanding some results about classicality in multi-partite
+channels with large output spaces.</li>
+<li>Analyzing these results in context of resource theory of coherence,
+symmetric channels.</li>
+<li>Hope to provide some answers about quantum darwinism and
+distribution of timing information to many parties.</li>
+</ul>
+</dd>
+<dt><strong>Fall Semester 2021</strong></dt>
+<dd>
+<p><strong>Understanding Fermi’s two atom problem using QIT</strong></p>
+<p><em>Project Guide - Dr. Manabendra Nath Bera, DPS, IISER
+Mohali</em></p>
+<ul>
+<li><p>Reviewed literature to understand the controversy around the
+problem, and Hegerfeldt’s recent arguments.</p></li>
+<li><p>Reviewed the causality literature in quantum information
+focussing on the classical paper by Beckman et al. </p></li>
+<li><p>Tried to understand causality violations in lattice
+systems.</p></li>
+</ul>
+</dd>
 <dt><strong>Summer 2021</strong></dt>
 <dd>
-<p><u><em>Causality in Relativistic Quantum Information</em></u></p>
-<p>Project Guide - Dr. Manabendra Nath Bera, DPS, IISER Mohali</p>
-</dd>
-</dl>
-<p>The problem of causality was analysed in 2-level systems coupling
-locally to quantum field/lattice models</p>
+<p><strong>Symmetry and Quantum Information Theory</strong></p>
+<p><em>Project Guide - Dr. Manabendra Nath Bera, DPS, IISER
+Mohali</em></p>
 <ul>
-<li>Reviewed the foundational paper <a
-href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.64.052309"
-target="_blank">Causal and localizable quantum operations (David Beckman
-et al)</a></li>
-<li>Reviewed prescriptions of solving Fermi’s two atom problem and
-understanding causality violations.</li>
-<li>Analysed <u>UDW-Detector models</u> and Ion trap models used to
-study entanglement harvesting to see causality violations.</li>
+<li><p>Reviewed literature on the resource theory of reference frames
+andasymmetry.</p></li>
+<li><p>Presented the paper on extension of Noether’s Theorem using QRT
+of asymmetry, and entropic conditions for state
+transformations.</p></li>
+<li><p>Tried to understand asymmetry in many-body systems.</p></li>
 </ul>
-<dl>
-<dt><strong>Semester 2021</strong></dt>
-<dd>
-<p><u><em>Symmetry and Quantum Information Theory</em></u></p>
-<p>Project Guide - Dr. Manabendra Nath Bera, DPS, IISER Mohali</p>
 </dd>
-</dl>
-<ul>
-<li>Reviewed important papers and PhD thesis in resource theory of
-asymmetry and reference frames.</li>
-<li>Interesting consequences of symmetry leading to
-information-theoretic conservation laws in QM were identified</li>
-</ul>
-<dl>
 <dt><strong>Summer 2020</strong></dt>
 <dd>
-<p><u><em>Review of Quantum Information Theoretic Methods to study
-Neutrino Oscillations</em></u></p>
-<p>Project Guide - Dr. Subhashish Banerjee, DPS, IIT Jodhpur</p>
-</dd>
-</dl>
+<p><strong>QIT Methods to study neutrino oscillations</strong></p>
+<p><em>Project Guide - Dr. Subhashish Banerjee, DPS, IIT
+Jodhpur</em></p>
 <ul>
+<li>Peer reviewed a paper with my advisor on entropic uncertainty
+relation in neutrino oscillations</li>
 <li>Reviewed literature on LGtI inequalities for studying Neutrino/Meson
 systems.</li>
-<li>Ad-Hoc peer-reviewed a journal paper in European Physical Journal C
-for my guide now published as Entropic uncertainty relation in neutrino
-oscillations</li>
 </ul>
-<dl>
+</dd>
 <dt><strong>Summer 2019</strong></dt>
 <dd>
-<p><u><em>Review of Computational Methods to solve Schrodinger
-Equation</em></u></p>
-<p>Project guide - Dr.Ambresh Shivaji, DPS, IISER Mohali</p>
+<p><strong>Review of computational methods to study Schrodinger’s
+Equation</strong></p>
+<p><em>Project Guide - Dr. Ambresh Shivaji, DPS, IISER Mohali</em></p>
+<ul>
+<li>Learned computational methods and solved the Schrodinger’s equation
+for a variety of analytically untractable potentials and presented the
+results. Learned some analytic methods for quartic potentials</li>
+</ul>
 </dd>
 </dl>
+<h2 id="technical-skills">Technical Skills</h2>
 <ul>
-<li>Reviewed the recent literature in computational methods and
-implemented it on Python.</li>
-<li>We analysed the convergence rates to eigenfunctions and
-eigenvalues.</li>
-<li>We solved some non-analytic potentials and tested the limits of
-perturbation theory.</li>
+<li><p><strong>Mathematics</strong> : Analysis, Probability, Operator
+Theory</p></li>
+<li><p><strong>Programming</strong> : Python, Julia</p></li>
 </ul>
-<h2 id="experienceskills"><strong>Experience/Skills</strong></h2>
-<p><strong>SWAN Radio Telescope</strong></p>
+<h2 id="participation">Participation</h2>
 <ul>
-<li><p>Member of the SWAN (Sky Watch Array Network)-RRI collaboration
-from IISER Mohali</p></li>
-<li><p>Part of the winning team of the SWAN Radio Imaging
-Challenge</p></li>
-<li><p>Visited RRI Bangalore in Summer 2019 and Winter 2019 to attend
-SWAN Hands-On Camp</p></li>
+<li><p>Convener of Phi@I, physics club of IISER Mohali
+(<em>2019-2021</em>)</p></li>
+<li><p>Volunteer for foundation day workshops for school students
+(<em>2018. 2019</em>)</p></li>
+<li><p>Volunteer for QFTA conference at IISER-M (<em>2019</em>)</p></li>
 </ul>
-<p><strong>Conferences</strong></p>
+<h2 id="awards">Awards</h2>
 <ul>
-<li><p>Attended the annual Vijyoshi Science Camp in IISER
-Bhopal</p></li>
-<li><p>Participated in Quantum Foundations,Theory and Applications -
-2020 held at IISER Mohali</p></li>
-<li><p>Attended Quantum Information Processing 2021/2022</p></li>
+<li><p>Recipient of KVPY Fellowship (<em>2018-2023</em>)</p></li>
+<li><p>Winner (Team) - SWAN Radio Imaging Challenge
+(<em>2019</em>)</p></li>
 </ul>
-<p><strong>Skills</strong></p>
-<ul>
-<li><p>Scientific Programming and Data Analysis in Python and
-Julia</p></li>
-<li><p>Science Communication</p></li>
-</ul>
+<hr />
 </body>
 </html>
