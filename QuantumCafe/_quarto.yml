@@ -1,0 +1,15 @@
+project:
+  type: website
+
+website:
+  title: "Quantum Cafe"
+  navbar:
+    right:
+      - about.qmd
+format:
+  html:
+    theme: darkly
+    css: styles.css
+
+
+
