@@ -1,3 +1,18 @@
 ---
-title: "About"
+title: "Bits about me"
 ---
+
+<center>
+![](AabhasGulati.jpeg){height="400px" width="300px"} 
+</center>
+
+<br/><br/>
+
+
+I am a first year PhD student in 
+[TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) group at Toulouse, and broadly working on understanding symmetric multipartite tensors, and entanglement theory. I am also interested in Quantum Foundations, Dynamics, and Resource theories. I started this blog to document what I actually know about all this, and hopefully it is useful to other people who also are struggling to understand the same topics. 
+
+
+
+
+

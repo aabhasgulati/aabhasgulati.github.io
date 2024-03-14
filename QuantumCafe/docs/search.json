@@ -9,8 +9,50 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Quantum Cafe",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "What’s new?",
+    "section": "",
+    "text": "Gibbs Paradox and Quantum Mechanics\n\n\nHow Jaynes changed my worldview\n\n\n\n\n\n\n\n\n\nAabhas\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/entanglement-theory/index.html",
+    "href": "posts/entanglement-theory/index.html",
+    "title": "Entanglement Theory",
+    "section": "",
+    "text": "We all learn about entanglement in our first course on quantum mechanics, and the definition provided is usually like this:\n\nA state is entangled if it cannot be written as a product of two states, i.e \\(\\psi \\neq \\psi_1 \\otimes \\psi_2\\).\n\nThe idea is that there exist states of the joint system (the state space of which is \\(\\mathcal{H}_1 \\otimes \\mathcal{H}_2\\)) which cannot be written as a product of states of the individual systems."
+  },
+  {
+    "objectID": "posts/quantum-teleportation/index.html",
+    "href": "posts/quantum-teleportation/index.html",
+    "title": "Teleportation Protocols",
+    "section": "",
+    "text": "The (one-way) teleportation protocols can be understood as a way to accomplish the communication of unknown quantum states between two parties, which is useful when there are limitations on the parties involved.\nIn this protocol, Alice, sends an unknown quantum state to Bob. The limitation is that she doesn’t have a direct quantum channel to Bob. But she does have access to a (possibly) entangled state which she shares with Bob. And a phone line, which is an euphemism in information theory for a classical communication channel.\nSo how does Alice accomplish the task? Alice can use some pre-shared entanglement, and a classical communication channel to simulate a quantum channel (exactly or approximately). Our goal is to understand these sets of protocols that can be used to simulate quantum channels using resources of (one-way) communication and pre-shared entanglement."
+  },
+  {
+    "objectID": "posts/quantum-teleportation/index.html#can-you-generalise-this",
+    "href": "posts/quantum-teleportation/index.html#can-you-generalise-this",
+    "title": "Teleportation Protocols",
+    "section": "Can you generalise this?",
+    "text": "Can you generalise this?\nCan you use a similar protocol for all systems? Given a quantum state in C^n, we can use a maximally entangled state in C^n, and a set of correction operators."
+  },
+  {
+    "objectID": "posts/quantum-teleportation/index.html#can-we-generalise-this-to-mathbbcn",
+    "href": "posts/quantum-teleportation/index.html#can-we-generalise-this-to-mathbbcn",
+    "title": "Teleportation Protocols",
+    "section": "Can we generalise this to \\(\\mathbb{C}^n\\)?",
+    "text": "Can we generalise this to \\(\\mathbb{C}^n\\)?\nCan you use a similar protocol for all systems? Given a quantum state in \\(\\mathbb{C}^n\\), we can use a maximally entangled state in \\(\\mathbb{C}^n\\), and a set of correction operators."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Bits about me",
+    "section": "",
+    "text": "I am a first year PhD student in TIQTOQS group at Toulouse, and broadly working on understanding symmetric multipartite tensors, and entanglement theory. I am also interested in Quantum Foundations, Dynamics, and Resource theories. I started this blog to document what I actually know about all this, and hopefully it is useful to other people who also are struggling to understand the same topics."
   }
 ]

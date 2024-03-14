@@ -1,5 +1,9 @@
 ---
-
+title: "What's new?"
+subtitle: "Some musings on Quantum Physics and Mathematics"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
 ---
-
-

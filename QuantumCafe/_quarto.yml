@@ -3,13 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "Quantum Cafe"
+  title: "Quantum Bits"
   navbar:
     right:
+      - index.qmd
       - about.qmd
+      
 format:
   html:
-    theme: darkly
+    theme: 
+      dark : darkly
     css: styles.css
 
 
