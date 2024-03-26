@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "What’s new?",
     "section": "",
-    "text": "Gibbs Paradox and Quantum Mechanics\n\n\nHow Jaynes changed my worldview\n\n\n\n\n\n\n\n\n\nAabhas\n\n\n\n\n\n\nNo matching items"
+    "text": "Convertibility in the universe\n\n\nAnd why should we care about this question?\n\n\n\n\nQuantum Resources\n\n\nEntanglement\n\n\nAsymmetry\n\n\n\n\n\n\n\n\n\n\n\nAabhas Gulati\n\n\n\n\n\n\n\n\nGibbs Paradox and Quantum Mechanics\n\n\nHow Jaynes changed my worldview\n\n\n\n\nEntropy\n\n\nQuantum Mechanics\n\n\n\n\n\n\n\n\n\n\n\nAabhas\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/entanglement-theory/index.html",
@@ -54,5 +54,12 @@
     "title": "Bits about me",
     "section": "",
     "text": "I am a first year PhD student in TIQTOQS group at Toulouse, and broadly working on understanding symmetric multipartite tensors, and entanglement theory. I am also interested in Quantum Foundations, Dynamics, and Resource theories. I started this blog to document what I actually know about all this, and hopefully it is useful to other people who also are struggling to understand the same topics."
+  },
+  {
+    "objectID": "posts/convertibility-structures/index.html",
+    "href": "posts/convertibility-structures/index.html",
+    "title": "Convertibility in the universe",
+    "section": "",
+    "text": "This week I will be giving a student journal club talk, and this post is written in the preparation of the talk. The question I will be discussing concerns “When can a state (of a system) be converted into another?”. For this whole article, I would not be defining what a state is very rigourously, but intuitively we all understand that it is some way to describe a system, mathematically.\nThe first situation that we will concern ourselves with is thermodynamics, and the simplest system we can imagine i.e an ideal gas. The state space of an ideal gas is given by \\((U,V) \\in \\mathbb{R}_+^2\\), where \\(U\\) is the energy, and \\(V\\) is the volume. The physical operations we can hope to perform on the gas is “heating” or “cooling” it down using some reservoir, or just changing the volume by applying some pressure or reducing pressure. We will assume that its possible to do all transformations sufficiently slowly, so that at every point the gas is at equilibrium with the external pressure, or the external reservoir.\nIs it possible for us to transform the gas from \\((U,V) \\rightarrow (U',V')\\)?"
   }
 ]

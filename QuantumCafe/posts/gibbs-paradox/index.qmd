@@ -2,4 +2,5 @@
 title: "Gibbs Paradox and Quantum Mechanics"
 subtitle: "How Jaynes changed my worldview"
 author: "Aabhas"
+categories: ["Entropy", "Quantum Mechanics"]
 ---
