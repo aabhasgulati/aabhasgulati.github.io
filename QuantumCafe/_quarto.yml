@@ -8,7 +8,7 @@ website:
     right:
       - index.qmd
       - about.qmd
-      - resource-zoo/resource-theories-zoo.qmd
+      - resource-zoo.qmd
       
 format:
   html:
