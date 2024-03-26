@@ -1,3 +1,4 @@
 ---
 title: Resource Theory Zoo
+permalink: /URL-PATH
 ---
