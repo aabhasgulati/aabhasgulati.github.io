@@ -11,3 +11,33 @@ This week I will be giving a student journal club talk, and this post is written
 The first situation that we will concern ourselves with is **thermodynamics**, and the simplest system we can imagine i.e an ideal gas. The state space of an ideal gas is given by $(U,V) \in \mathbb{R}_+^2$, where $U$ is the energy, and $V$ is the volume. The physical operations we can hope to perform on the gas is "heating" or "cooling" it down using some reservoir, or just changing the volume by applying some pressure or reducing pressure. We will assume that its possible to do all transformations sufficiently slowly, so that at every point the gas is at equilibrium with the external pressure, or the external reservoir. 
 
 Is it possible for us to transform the gas from $(U,V) \rightarrow (U',V')$? 
+
+It is easy to show that by moving in the phase diagram by using the composition of these processes accomplishes the task:
+1. Change volume without adding heat to V'.
+2. Add or subtract heat (at constant volume) until you get to U'.
+
+Therefore, we can see that every state can be converted to another using all allowed "thermodynamic operations." But we can imagine that in some situations due to some constraints, we are not allowed to exchange heat with the system. We call such operations as *Adiabatic* transformations of the system. How does this restriction affect conversion of states? 
+
+If you remember your first year thermodynamics, this is exactly a situation in which the second law of thermodynamics applies. We have a closed system, and hence the entropy of the system after the transformation must be either equal to or greater than the entropy before the transformation. 
+
+$S(U,V) \leq S(U',V')$ if $(U,V) \rightarrow (U',V')$
+
+Is this condition sufficient as well? What I mean is that if some pairs $(U,V)$ and $(U',V')$ satisfy the entropy condition, can we find an adiabatic transformation that connects the two. 
+
+The answer is yes. 
+
+We have a complete understanding of state transformations under adiabatic transformations. We represent $(U,V) \succcurlyeq (U',V')$ if the former can be converted into the latter. We note that the following conditions are true
+
+1. $(U,V) \succcurlyeq (U,V)$. 
+2. $(U,V) \succcurlyeq (U',V'), (U',V') \succcurlyeq (U'',V'') \implies (U,V) \succcurlyeq (U'',V'')$. 
+3. Either $(U,V) \succcurlyeq (U',V')$ and $(U',V') \succcurlyeq (U,V)$ \implies $(U,V) = (U',V')$.
+
+Therefore the relation that we propose completely orders the states of the ideal gas. 
+
+That's all we will talk about thermodynamics for now. We look at something which is widely different thing in principle, but allows for similar structures. 
+
+We consider now a state space of probability distributions on an alphabet $\sigma$, and the theory of stochastic transformations. To motivate the abstract structure, we will look at the physical situation where such a 
+
+
+
+

@@ -91,6 +91,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../about.html">
  <span class="menu-text">Bits about me</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resource-zoo.html">
+ <span class="menu-text">Resource Theory Zoo</span></a>
+  </li>  
 </ul>
               <div class="quarto-toggle-container">
                   <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -142,6 +146,21 @@ ul.task-list li input[type="checkbox"] {
 <p>This week I will be giving a student journal club talk, and this post is written in the preparation of the talk. The question I will be discussing concerns “When can a state (of a system) be converted into another?”. For this whole article, I would not be defining what a <em>state</em> is very rigourously, but intuitively we all understand that it is some way to describe a system, mathematically.</p>
 <p>The first situation that we will concern ourselves with is <strong>thermodynamics</strong>, and the simplest system we can imagine i.e an ideal gas. The state space of an ideal gas is given by <span class="math inline">\((U,V) \in \mathbb{R}_+^2\)</span>, where <span class="math inline">\(U\)</span> is the energy, and <span class="math inline">\(V\)</span> is the volume. The physical operations we can hope to perform on the gas is “heating” or “cooling” it down using some reservoir, or just changing the volume by applying some pressure or reducing pressure. We will assume that its possible to do all transformations sufficiently slowly, so that at every point the gas is at equilibrium with the external pressure, or the external reservoir.</p>
 <p>Is it possible for us to transform the gas from <span class="math inline">\((U,V) \rightarrow (U',V')\)</span>?</p>
+<p>It is easy to show that by moving in the phase diagram by using the composition of these processes accomplishes the task: 1. Change volume without adding heat to V’. 2. Add or subtract heat (at constant volume) until you get to U’.</p>
+<p>Therefore, we can see that every state can be converted to another using all allowed “thermodynamic operations.” But we can imagine that in some situations due to some constraints, we are not allowed to exchange heat with the system. We call such operations as <em>Adiabatic</em> transformations of the system. How does this restriction affect conversion of states?</p>
+<p>If you remember your first year thermodynamics, this is exactly a situation in which the second law of thermodynamics applies. We have a closed system, and hence the entropy of the system after the transformation must be either equal to or greater than the entropy before the transformation.</p>
+<p><span class="math inline">\(S(U,V) \leq S(U',V')\)</span> if <span class="math inline">\((U,V) \rightarrow (U',V')\)</span></p>
+<p>Is this condition sufficient as well? What I mean is that if some pairs <span class="math inline">\((U,V)\)</span> and <span class="math inline">\((U',V')\)</span> satisfy the entropy condition, can we find an adiabatic transformation that connects the two.</p>
+<p>The answer is yes.</p>
+<p>We have a complete understanding of state transformations under adiabatic transformations. We represent <span class="math inline">\((U,V) \succcurlyeq (U',V')\)</span> if the former can be converted into the latter. We note that the following conditions are true</p>
+<ol type="1">
+<li><span class="math inline">\((U,V) \succcurlyeq (U,V)\)</span>.</li>
+<li><span class="math inline">\((U,V) \succcurlyeq (U',V'), (U',V') \succcurlyeq (U'',V'') \implies (U,V) \succcurlyeq (U'',V'')\)</span>.</li>
+<li>Either <span class="math inline">\((U,V) \succcurlyeq (U',V')\)</span> and <span class="math inline">\((U',V') \succcurlyeq (U,V)\)</span> <span class="math inline">\((U,V) = (U',V')\)</span>.</li>
+</ol>
+<p>Therefore the relation that we propose completely orders the states of the ideal gas.</p>
+<p>That’s all we will talk about thermodynamics for now. We look at something which is widely different thing in principle, but allows for similar structures.</p>
+<p>We consider now the</p>
 
 
 
