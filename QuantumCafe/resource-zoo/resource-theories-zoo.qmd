@@ -1,5 +1,9 @@
 ---
-Title: Resource Theories
+Title: Resource Theory Zoo
 ---
+
+We are trying to create a *Resource Theory Zoo* to categorize and to organize known quantum resource theories. We are inspired by other similar zoos, including the error correction zoo, complexity zoo, the quantum algorithm zoo, the quantum protocol zoo, the qubit zoo, and the entropy zoo. We also aim to complement the recent book "Resources of the Quantum World" by Gilad Gour. 
+
+We have made the discord server for this project, here at [link]()
 
 
