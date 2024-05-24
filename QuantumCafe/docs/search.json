@@ -53,7 +53,7 @@
     "href": "about.html",
     "title": "Bits about me",
     "section": "",
-    "text": "I am a first year PhD student in TIQTOQS group at Toulouse, and broadly working on understanding symmetric multipartite tensors, and entanglement theory. I am also interested in Quantum Foundations, Dynamics, and Resource theories. I started this blog to document what I actually know about all this, and hopefully it is useful to other people who also are struggling to understand the same topics."
+    "text": "5\nI am a first year PhD student in TIQTOQS group at Toulouse, and broadly working on understanding symmetric multipartite tensors, and entanglement theory. I am also interested in Quantum Foundations, Dynamics, and Resource theories. I started this blog to document what I actually know about all this, and hopefully it is useful to other people who also are struggling to understand the same topics."
   },
   {
     "objectID": "posts/convertibility-structures/index.html",
@@ -61,5 +61,19 @@
     "title": "Convertibility in the universe",
     "section": "",
     "text": "This week I will be giving a student journal club talk, and this post is written in the preparation of the talk. The question I will be discussing concerns “When can a state (of a system) be converted into another?”. For this whole article, I would not be defining what a state is very rigourously, but intuitively we all understand that it is some way to describe a system, mathematically.\nThe first situation that we will concern ourselves with is thermodynamics, and the simplest system we can imagine i.e an ideal gas. The state space of an ideal gas is given by \\((U,V) \\in \\mathbb{R}_+^2\\), where \\(U\\) is the energy, and \\(V\\) is the volume. The physical operations we can hope to perform on the gas is “heating” or “cooling” it down using some reservoir, or just changing the volume by applying some pressure or reducing pressure. We will assume that its possible to do all transformations sufficiently slowly, so that at every point the gas is at equilibrium with the external pressure, or the external reservoir.\nIs it possible for us to transform the gas from \\((U,V) \\rightarrow (U',V')\\)?\nIt is easy to show that by moving in the phase diagram by using the composition of these processes accomplishes the task: 1. Change volume without adding heat to V’. 2. Add or subtract heat (at constant volume) until you get to U’.\nTherefore, we can see that every state can be converted to another using all allowed “thermodynamic operations.” But we can imagine that in some situations due to some constraints, we are not allowed to exchange heat with the system. We call such operations as Adiabatic transformations of the system. How does this restriction affect conversion of states?\nIf you remember your first year thermodynamics, this is exactly a situation in which the second law of thermodynamics applies. We have a closed system, and hence the entropy of the system after the transformation must be either equal to or greater than the entropy before the transformation.\n\\(S(U,V) \\leq S(U',V')\\) if \\((U,V) \\rightarrow (U',V')\\)\nIs this condition sufficient as well? What I mean is that if some pairs \\((U,V)\\) and \\((U',V')\\) satisfy the entropy condition, can we find an adiabatic transformation that connects the two.\nThe answer is yes.\nWe have a complete understanding of state transformations under adiabatic transformations. We represent \\((U,V) \\succcurlyeq (U',V')\\) if the former can be converted into the latter. We note that the following conditions are true\n\n\\((U,V) \\succcurlyeq (U,V)\\).\n\\((U,V) \\succcurlyeq (U',V'), (U',V') \\succcurlyeq (U'',V'') \\implies (U,V) \\succcurlyeq (U'',V'')\\).\nEither \\((U,V) \\succcurlyeq (U',V')\\) and \\((U',V') \\succcurlyeq (U,V)\\) \\((U,V) = (U',V')\\).\n\nTherefore the relation that we propose completely orders the states of the ideal gas.\nThat’s all we will talk about thermodynamics for now. We look at something which is widely different thing in principle, but allows for similar structures.\nWe consider now a state space of probability distributions on an alphabet \\(\\sigma\\), and the theory of stochastic transformations. To motivate the abstract structure, we will look at the physical situation where such a"
+  },
+  {
+    "objectID": "resource-zoo.html",
+    "href": "resource-zoo.html",
+    "title": "Resource Theory Zoo",
+    "section": "",
+    "text": "We are trying to create a Resource Theory Zoo to categorize and to organize known quantum resource theories. We are inspired by other similar zoos, including the error correction zoo, complexity zoo, the quantum algorithm zoo, the quantum protocol zoo, the qubit zoo, and the entropy zoo. We also aim to complement the recent book “Resources of the Quantum World” by Gilad Gour.\nWe have made the discord server for this project, here at link"
+  },
+  {
+    "objectID": "resource-zoo/resource-theories-zoo.html",
+    "href": "resource-zoo/resource-theories-zoo.html",
+    "title": "Quantum Bits",
+    "section": "",
+    "text": "We are trying to create a Resource Theory Zoo to categorize and to organize known quantum resource theories. We are inspired by other similar zoos, including the error correction zoo, complexity zoo, the quantum algorithm zoo, the quantum protocol zoo, the qubit zoo, and the entropy zoo. We also aim to complement the recent book “Resources of the Quantum World” by Gilad Gour.\nWe have made the discord server for this project, here at link"
   }
 ]
