@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -89,6 +90,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../../about.html">
  <span class="menu-text">Bits about me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resource-zoo.html">
+ <span class="menu-text">Resource Theory Zoo</span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -137,6 +142,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p>In my third year of undergraduate physics course on statistical mechanics, I encountered a really puzzling issue. I spent a lot of time thinking about the solution, also discussing with few other students. This journey also led to find that this issue did arise more than 150 years ago, almost at the same time when the whole field was being invented. But to understand the issue, we need to set up some background.</p>
+<p>We have to imagine a rectangular box, with a partition that divides the box into equal volumes, which we will label <span class="math inline">\(L\)</span> (Left) and <span class="math inline">\(R\)</span> (Right). The box is also assumed to have poor conductivity of heat, therefore no heat exchange can take place between inside and outside the box. Then, in the left partition we will fill up an ideal gas which occupies a volume of <span class="math inline">\(V/2\)</span>. We wait until the gas reaches equilibrium, and then remove the partition. Our intuition suggests that the gas will expand to fill the complete box.</p>
+<p>Any undergraduate text will tell you that this process leads to an entropy change given by the formula <span class="math display">\[ \Delta S = nR \log 2\]</span> <em>independent</em> of the gas.</p>
+<p>Now you could in principle start with a different situation, and fill both the sides of the partition with the <strong>same</strong> gas, and the same state, i.e the same pressure, temperature and density. What happens when you remove the partition in this case? There should be absolutely no change in the system, atleast in the macroscopic state of the gas, because it is already an equilibrium situation. We can even verify it explicitly in the diagram.</p>
+<p>What’s the entropy change here? Entropy is a state function and since there is no state change, the change in the function should be <span class="math display">\[\Delta S = 0\]</span></p>
+<p>This seems very reasonable until now. Now here’s the issue. We can also imagine a situation where you fill both the partitions with a <em>different</em> gas. Now as you remove the partition, since the gases do not interact with each other, we can treat it as independent systems. In such a case, the final entropy change should just be</p>
+<p><span class="math display">\[\Delta S = n R \log 2 + n R \log 2 = 2 n R \log 2\]</span></p>
+<p>Now here’s why this was weird to me at first sight. We don’t specify how different the gases are. It could be a very slight difference in their nature, and not even experimentally detectable. If you are like me, and always imagine a gas as balls bouncing around, the difference of the gases might be that the balls are coloured differently. But let’s say there is a colour-blind person can’t distinguish them apart, so will he ascribe the change of entropy to be <span class="math inline">\(0\)</span> or <span class="math inline">\(2 n R \log 2\)</span>. Yes, most of us are not color-blind but maybe there exists some features of the gas which we cannot “see”? Are we doing thermodynamics wrong then? Or we can’t even do thermodynamics at all?</p>
+<p>The more learned people will know that this problem is well known as the <a href="https://www.wikiwand.com/en/Gibbs_paradox#The_mixing_paradox">Mixing Paradox</a>.</p>
+<p>A lot of people assume that the answer to the Mixing Paradox lies in Quantum Mechanics, as there the particles become truly indistinguishable. Two electrons are similar in all respects, there cannot be any more labels that you can attach and no more degrees of freedom. That means that you can only ascribe the <span class="math inline">\(\Delta S = 0\)</span> when you have two electron gases? But, the inventors of statistical mechanics didn’t know anything much about quantum mechanics. Were they doing thermodynamics wrong?</p>
+<p>To understand the solution, I had to look around. Finally, and I don’t remember how, I stumbled across the paper on Gibbs Paradox by Jaynes. The resolution of this problem is deeper than what it appears on the surface. It is not just that thermodynamics is a theory that is universally applicable, it is also applicable with partial knowledge of the world.</p>
 
 
 
