@@ -23,4 +23,4 @@ In general, I am interested in Quantum Information. In particular I like
 
 - Entanglement theory (Bound Entanglement, Schmidt Numbers, Resource theory of Entanglement)
 - Quantum Shannon theory
-- problems with Tensors and Graphs
+- problems with Tensors and/or Graphs
