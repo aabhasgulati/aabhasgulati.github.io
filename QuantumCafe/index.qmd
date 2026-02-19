@@ -5,9 +5,22 @@
 
 ![](AabhasGulati.jpeg){height="200px" width="150px"} 
 
+I am a PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) team in Toulouse. 
 
-<center>
+My PhD supervisors are [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/). 
 
-I am a PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) team in Toulouse . My thesis work involves the intersection of entanglement theory, polynomial optimization and symmetries.
+</center>
 
-PhD supervisors : [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/). 
+# Research Interests 
+
+My thesis work lies in the intersection of 
+
+- Entanglement 
+- Symmetry in quantum states 
+- Polynomial Optimization
+
+In general, I am interested in Quantum Information. In particular I like 
+
+- Entanglement Theory, Bound Entanglement, Schmidt numbers.  
+- Quantum Shannon Theory
+- Tensors, and Graphs in problems 
