@@ -21,6 +21,6 @@ My thesis work lies in the intersection of
 
 In general, I am interested in Quantum Information. In particular I like 
 
-- Entanglement Theory, Bound Entanglement, Schmidt numbers.  
-- Quantum Shannon Theory
-- Tensors, and Graphs in problems 
+- Entanglement theory (Bound Entanglement, Schmidt Numbers, Resource theory of Entanglement)
+- Quantum Shannon theory
+- problems with Tensors and Graphs
