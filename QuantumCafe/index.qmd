@@ -3,7 +3,8 @@
 <center>
 # Hi, it's Aabhas! Welcome to my personal page.
 
-![](AabhasGulati.jpeg)
+![](AabhasGulati.jpeg){width=250}
+
 I am a PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) team in Toulouse. 
 
 My PhD supervisors are [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/). 
