@@ -1,0 +1,6 @@
+---
+title: "Musings"
+listing:
+  contents: posts
+  type: table
+---

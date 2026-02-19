@@ -6,14 +6,14 @@ website:
   title: "Quantum Bits"
   navbar:
     right:
-      - index.qmd
       - about.qmd
-      - resource-zoo.qmd
-      
+      - blog.qmd
+
 format:
   html:
     theme: 
-      dark : darkly
+      light: sandstone
+      dark: darkly
     css: styles.css
 
 

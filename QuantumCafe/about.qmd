@@ -1,18 +1,15 @@
 ---
-title: "Bits about me"
+title: "Research"
 ---
 
-<center>
-![](AabhasGulati.jpeg){height="400px" width="300px"} 
-</center>
+# Preprints
+- [Entanglement in the Dicke subspace](https://arxiv.org/abs/2602.15800) with Ion Nechita and Clement Pellegrini
+- [Positive maps and extendibility heirarchies from copositive matrices](https://arxiv.org/abs/2509.15201) with Ion Nechita and Sang-Jun Park
 
-<br/><br/>
-
-
-I am a first year PhD student in 
-[TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) group at Toulouse, and broadly working on understanding symmetric multipartite tensors, and entanglement theory. I am also interested in Quantum Foundations, Dynamics, and Resource theories. I started this blog to document what I actually know about all this, and hopefully it is useful to other people who also are struggling to understand the same topics. 
-
-
+# Published
+- [Rank-based entanglement detection for bound entangled states](https://doi.org/10.1103/4r1h-njb6) in Phys. Rev. A 113, 022415.
+ - [Entanglement in cyclic sign invariant quantum states](
+https://doi.org/10.1063/5.0285294) in J. Math. Phys. 66, 122202 (2025) with Ion Nechita and Satvik Singh
 
 
 

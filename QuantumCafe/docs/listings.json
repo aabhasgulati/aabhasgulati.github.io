@@ -6,5 +6,13 @@
       "/posts/convertibility-structures/index.html",
       "/posts/gibbs-paradox/index.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/convertibility-structures/index.html",
+      "/posts/gibbs-paradox/index.html",
+      "/posts/entanglement-theory/index.html"
+    ]
   }
 ]

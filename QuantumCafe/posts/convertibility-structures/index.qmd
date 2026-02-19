@@ -108,6 +108,15 @@ Again, we need to talk about imposing some restrictions on these processes. From
 
 > There are two labs. Alice, and Bob are the head of the labs, and have almost perfected running quantum experiments in their own labs. But it is impossible with the current technology to send quantum particles between labs, as they suffer from decoherence (losses to quantum properties). But they have a very good internet connection that can transmit classical information. What transformations can they achieve? 
 
+Let's draw a visual representation of the way Alice and Bob achieve state transformations. 
 
+First, Alice applies some unitary and measures some observable $O$. Then she tells Bob the outcome of her measurement and Bob uses this data to apply some measurement and sends the data to Alice. This goes on as long as they want. Obviously we know that practically we can run only finite number of operations. 
+
+
+In more technical lingo, this is called local operations and classical communication. You can guess what the next question is going to be? 
+
+*Can you convert from $\ket{\psi}$ to $\ket{\phi}$ using LOCC transformations?*
+
+Lots of people asked this question around the beginning of this decade. The conclusive answer was provided by Nielsen (of the Nielsen and Chuang fame). People now refer to it as Nielsen's theorem. 
 
 

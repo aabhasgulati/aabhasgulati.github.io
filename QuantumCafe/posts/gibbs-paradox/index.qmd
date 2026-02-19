@@ -1,7 +1,6 @@
 ---
 title: "Gibbs Paradox and Quantum Mechanics"
 subtitle: "How Jaynes changed my worldview"
-author: "Aabhas"
 categories: ["Entropy", "Quantum Mechanics"]
 ---
 In my third year of undergraduate physics course on statistical mechanics, I encountered a really puzzling issue. I spent a lot of time thinking about the solution, also discussing with few other students. This journey also led to find that this issue did arise more than 150 years ago, almost at the same time when the whole field was being invented. In this post I will dive into the paradox and also its resolution, which is a great testament to the intrinsic beauty of thermodynamics.  

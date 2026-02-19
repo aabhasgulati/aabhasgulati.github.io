@@ -85,16 +85,14 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../index.html">
- <span class="menu-text">What’s new?</span></a>
+ <span class="menu-text">Hi! I am Aabhas</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html">
  <span class="menu-text">Bits about me</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../resource-zoo.html">
- <span class="menu-text">Resource Theory Zoo</span></a>
-  </li>  
+  <li class="dropdown-header">
+ <span class="menu-text">resource-zoo.qmd</span></li>
 </ul>
               <div class="quarto-toggle-container">
                   <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -200,6 +198,11 @@ q, q, q \dots q
 <blockquote class="blockquote">
 <p>There are two labs. Alice, and Bob are the head of the labs, and have almost perfected running quantum experiments in their own labs. But it is impossible with the current technology to send quantum particles between labs, as they suffer from decoherence (losses to quantum properties). But they have a very good internet connection that can transmit classical information. What transformations can they achieve?</p>
 </blockquote>
+<p>Let’s draw a visual representation of the way Alice and Bob achieve state transformations.</p>
+<p>First, Alice applies some unitary and measures some observable <span class="math inline">\(O\)</span>. Then she tells Bob the outcome of her measurement and Bob uses this data to apply some measurement and sends the data to Alice. This goes on as long as they want. Obviously we know that practically we can run only finite number of operations.</p>
+<p>In more technical lingo, this is called local operations and classical communication. You can guess what the next question is going to be?</p>
+<p><em>Can you convert from <span class="math inline">\(\ket{\psi}\)</span> to <span class="math inline">\(\ket{\phi}\)</span> using LOCC transformations?</em></p>
+<p>Lots of people asked this question around the beginning of this decade. The conclusive answer was provided by Nielsen (of the Nielsen and Chuang fame). People now refer to it as Nielsen’s theorem.</p>
 
 
 
