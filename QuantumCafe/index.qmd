@@ -8,6 +8,6 @@
 
 <center>
 
-I am a PhD student in the TIQTOQs team in Toulouse. My thesis work involves the intersection of entanglement theory, polynomial optimization and symmetries.
+I am a PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) team in Toulouse . My thesis work involves the intersection of entanglement theory, polynomial optimization and symmetries.
 
-My PhD supervisors are Ion Nechita and Clement Pellegrini. 
+PhD supervisors : [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/). 
