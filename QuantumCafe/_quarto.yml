@@ -6,9 +6,9 @@ website:
   title: "Aabhas Gulati"
   navbar:
     right:
-      - about.qmd
-      - blog.qmd
+      - research.qmd
       - talks.qmd
+      - blog.qmd
 
 format:
   html:
