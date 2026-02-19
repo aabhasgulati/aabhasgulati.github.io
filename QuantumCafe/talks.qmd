@@ -1,0 +1,9 @@
+---
+title: "Talks"
+---
+
+- A complete theory of multipartite entanglement in diagonally symmetric bosonic states in [GIQ Seminar](https://webs.uab.cat/giq/seminar/a-complete-theory-of-multipartite-entanglement-in-diagonally-symmetric-bosonic-states/), Universitat Autònoma de Barcelona 
+ 
+-  Multipartite entanglement in diagonally symmetric bosonic states in [QUIT ](https://quoi-theory.at/), TU Wien
+  
+- Symmetric states and PPT entanglement at [Quantum Trajectories](https://www.icts.res.in/program/qt) in ICTS, Bengaluru [[slides]](https://www.icts.res.in/sites/default/files/seminar%20doc%20files/ICTS_Presentation%20-%20Aabhas%20Gulati.pdf)

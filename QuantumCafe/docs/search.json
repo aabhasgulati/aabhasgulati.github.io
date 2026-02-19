@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Aabhas Gulati",
     "section": "",
-    "text": "Hi, it’s Aabhas! Welcome to my personal page.\n\nI am a PhD student in the TIQTOQS team in Toulouse.\nMy PhD supervisors are Ion Nechita and Clement Pellegrini.\n\n\n\nResearch Interests\nMy thesis work lies in the intersection of\n\nEntanglement\nSymmetry in quantum states\nPolynomial Optimization\n\nIn general, I am interested in Quantum Information. In particular I like\n\nEntanglement theory (Bound Entanglement, Schmidt Numbers, Resource theory of Entanglement)\nQuantum Shannon theory\nproblems with Tensors and/or Graphs"
+    "text": "Hi, it’s Aabhas! Welcome to my personal page.\n\nI am a PhD student in the TIQTOQS team in Toulouse.\nMy PhD supervisors are Ion Nechita and Clement Pellegrini.\n\n\n\nResearch Interests\nMy thesis work lies in the intersection of\n\nEntanglement\nSymmetry in quantum states\nPolynomial optimization\n\nIn general, I am interested in Quantum Information. In particular I like\n\nEntanglement theory (Bound Entanglement, Schmidt Numbers, Resource theory of Entanglement)\nQuantum Shannon theory\nproblems with Tensors and/or Graphs"
   },
   {
     "objectID": "posts/entanglement-theory/index.html",
@@ -89,5 +89,12 @@
     "title": "Musings",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nConvertibility in the universe\n\n\nAabhas Gulati\n\n\n\n\nGibbs Paradox and Quantum Mechanics\n\n\nAabhas Gulati\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "A complete theory of multipartite entanglement in diagonally symmetric bosonic states in GIQ Seminar, Universitat Autònoma de Barcelona\nMultipartite entanglement in diagonally symmetric bosonic states in QUIT, TU Wien\nSymmetric states and PPT entanglement at Quantum Trajectories in ICTS, Bengaluru [slides]"
   }
 ]

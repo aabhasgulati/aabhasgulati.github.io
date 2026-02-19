@@ -17,7 +17,7 @@ My thesis work lies in the intersection of
 
 - Entanglement 
 - Symmetry in quantum states 
-- Polynomial Optimization
+- Polynomial optimization
 
 In general, I am interested in Quantum Information. In particular I like 
 
