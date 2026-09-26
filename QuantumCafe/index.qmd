@@ -16,8 +16,6 @@ PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pag
 
 Supervised by [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/).
 
-[Research](research.qmd){.pill} [Talks](talks.qmd){.pill} [Musings](blog.qmd){.pill}
-
 [CV](AabhasGulati_CV.pdf){.pill target="_blank"} [Google Scholar](https://scholar.google.com/citations?user=rLWFe7gAAAAJ&hl=en){.pill target="_blank"} [Bluesky](https://bsky.app/profile/aabhasgulati.bsky.social){.pill target="_blank"}
 :::
 :::

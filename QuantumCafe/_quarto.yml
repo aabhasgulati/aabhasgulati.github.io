@@ -25,7 +25,7 @@ format:
   html:
     theme:
       light: default
-      dark: darkly
+      dark: [default, dark.scss]
     css: styles.css
     toc: false
     smooth-scroll: true
