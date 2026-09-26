@@ -18,7 +18,7 @@ Supervised by [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](h
 
 [Research](research.qmd){.pill} [Talks](talks.qmd){.pill} [Musings](blog.qmd){.pill}
 
-[CV](AabhasGulati_CV.pdf){.pill target="_blank"} [Google Scholar](https://scholar.google.com/citations?user=rLWFe7gAAAAJ&hl=en){.pill target="_blank"}
+[CV](AabhasGulati_CV.pdf){.pill target="_blank"} [Google Scholar](https://scholar.google.com/citations?user=rLWFe7gAAAAJ&hl=en){.pill target="_blank"} [Bluesky](https://bsky.app/profile/aabhasgulati.bsky.social){.pill target="_blank"}
 :::
 :::
 
@@ -39,7 +39,7 @@ More broadly, I am interested in:
 
 **Preprint:** [Optimal entanglement criteria from trace invariants](https://arxiv.org/abs/2609.29471), with Bivas Mallick and Ion Nechita.
 
-Using convex duality, we find the best entanglement criteria that can be built from finitely many trace invariants of a state, the quantities accessible through randomized measurements.
+Using convex duality, we explore the best entanglement criteria that can be built from finitely many trace invariants of a state, also introducing new ones using realignment moments. 
 
 **Paper:** [Entanglement in the Dicke subspace](https://arxiv.org/abs/2602.15800), with Ion Nechita and Clement Pellegrini, in Quantum 10, 2150 (2026).
 
