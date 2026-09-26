@@ -4,18 +4,25 @@ project:
 
 website:
   title: "Aabhas Gulati"
+  page-navigation: false
+  search: false
   navbar:
-    right:
+    background: light
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
       - research.qmd
       - talks.qmd
-      - blog.qmd
+      - href: blog.qmd
+        text: Musings
+  page-footer:
+    center: "© 2026 Aabhas Gulati"
 
 format:
   html:
-    theme: 
-      light: sandstone
-      dark: darkly
+    theme: default
     css: styles.css
-
-
-
+    toc: false
+    smooth-scroll: true
+    html-math-method: mathjax

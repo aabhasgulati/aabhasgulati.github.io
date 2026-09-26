@@ -1,24 +1,43 @@
-<center>
-# Hi, it's Aabhas! Welcome to my personal page.
+---
+title: ""
+pagetitle: "Aabhas Gulati"
+page-layout: custom
+---
 
-![](AabhasGulati.jpeg){width=250}
+::: {.home}
 
-I am a PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) team in Toulouse. 
+::: {.hero}
+![](AabhasGulati.jpeg){.portrait fig-alt="Portrait of Aabhas Gulati"}
 
-My PhD supervisors are [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/). 
+::: {.hero-text}
+# Aabhas Gulati
 
-</center>
+PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) team, Toulouse.
 
-# Research Interests 
+Supervised by [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/).
 
-My thesis work lies in the intersection of 
+[Research](research.qmd){.pill} [Talks](talks.qmd){.pill} [Musings](blog.qmd){.pill}
+:::
+:::
 
-- Entanglement 
-- Symmetry in quantum states 
+## About
+
+I work on quantum information theory. My thesis lies at the intersection of
+
+- Entanglement
+- Symmetry in quantum states
 - Polynomial optimization
 
-In general, I am interested in Quantum Information. In particular I like 
+More broadly, I am interested in:
 
-- Entanglement theory (Bound Entanglement, Schmidt Numbers, Resource theory of Entanglement)
+- Entanglement theory: bound entanglement, Schmidt numbers, resource theory of entanglement
 - Quantum Shannon theory
-- problems with Tensors and/or Graphs
+- Problems involving tensors and graphs
+
+## Recent
+
+- **Preprint:** [Entanglement in the Dicke subspace](https://arxiv.org/abs/2602.15800), with Ion Nechita and Clement Pellegrini.
+- **Talk:** *A complete theory of multipartite entanglement in diagonally symmetric bosonic states*, GIQ Seminar, Universitat Autònoma de Barcelona.
+- **Paper:** [Rank-based entanglement detection for bound entangled states](https://doi.org/10.1103/4r1h-njb6), Phys. Rev. A 113, 022415.
+
+:::

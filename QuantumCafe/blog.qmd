@@ -1,6 +1,15 @@
 ---
-title: "Musings"
+title: ""
+pagetitle: "Musings"
+page-layout: custom
 listing:
   contents: posts
   type: table
+  fields: [title, subtitle]
 ---
+
+::: {.page}
+
+# Musings
+
+:::

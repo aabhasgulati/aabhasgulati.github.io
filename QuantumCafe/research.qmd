@@ -1,15 +1,21 @@
 ---
-title: "Research"
+title: ""
+pagetitle: "Research"
+page-layout: custom
 ---
 
-# Preprints
+::: {.page}
+
+# Research
+
+## Preprints
+
 - [Entanglement in the Dicke subspace](https://arxiv.org/abs/2602.15800) with Ion Nechita and Clement Pellegrini
-- [Positive maps and extendibility heirarchies from copositive matrices](https://arxiv.org/abs/2509.15201) with Ion Nechita and Sang-Jun Park
+- [Positive maps and extendibility hierarchies from copositive matrices](https://arxiv.org/abs/2509.15201) with Ion Nechita and Sang-Jun Park
 
-# Published
-- [Rank-based entanglement detection for bound entangled states](https://doi.org/10.1103/4r1h-njb6) in Phys. Rev. A 113, 022415.
- - [Entanglement in cyclic sign invariant quantum states](
-https://doi.org/10.1063/5.0285294) in J. Math. Phys. 66, 122202 (2025) with Ion Nechita and Satvik Singh
+## Published
 
+- [Rank-based entanglement detection for bound entangled states](https://doi.org/10.1103/4r1h-njb6), Phys. Rev. A 113, 022415.
+- [Entanglement in cyclic sign invariant quantum states](https://doi.org/10.1063/5.0285294), J. Math. Phys. 66, 122202 (2025), with Ion Nechita and Satvik Singh
 
-
+:::
