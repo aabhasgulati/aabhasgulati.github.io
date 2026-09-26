@@ -7,7 +7,7 @@ page-layout: custom
 ::: {.home}
 
 ::: {.hero}
-![](AabhasGulati.jpeg){.portrait fig-alt="Portrait of Aabhas Gulati"}
+![](profile.webp){.portrait fig-alt="Portrait of Aabhas Gulati"}
 
 ::: {.hero-text}
 # Aabhas Gulati
