@@ -17,6 +17,8 @@ PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pag
 Supervised by [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/).
 
 [Research](research.qmd){.pill} [Talks](talks.qmd){.pill} [Musings](blog.qmd){.pill}
+
+[CV](AabhasGulati_CV.pdf){.pill target="_blank"} [Google Scholar](https://scholar.google.com/citations?user=rLWFe7gAAAAJ&hl=en){.pill target="_blank"}
 :::
 :::
 
@@ -35,8 +37,8 @@ More broadly, I am interested in:
 
 ## Recent
 
-**Preprint:** [Entanglement in the Dicke subspace](https://arxiv.org/abs/2602.15800), with Ion Nechita and Clement Pellegrini.
+**Paper:** [Entanglement in the Dicke subspace](https://arxiv.org/abs/2602.15800), with Ion Nechita and Clement Pellegrini, in Quantum 10, 2150 (2026).
 
-We build a complete theory of entanglement for mixtures of Dicke states by encoding them as symmetric tensors, which links separability, PPT and entanglement witnesses to well-studied cones of tensors. As an application, we construct explicit PPT entangled states of three or more qutrits.
+We connect the entanglement properties of mixtures of Dicke states to convex cones of completely positive and copositive tensors and their relaxations. 
 
 :::

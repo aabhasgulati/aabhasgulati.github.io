@@ -8,10 +8,19 @@ page-layout: custom
 
 # Talks
 
-- *A complete theory of multipartite entanglement in diagonally symmetric bosonic states*, [GIQ Seminar](https://webs.uab.cat/giq/seminar/a-complete-theory-of-multipartite-entanglement-in-diagonally-symmetric-bosonic-states/), Universitat Autònoma de Barcelona
+## Conferences
 
-- *Multipartite entanglement in diagonally symmetric bosonic states*, [QUIT](https://quoi-theory.at/), TU Wien
+- *Entanglement in the Dicke subspace*, Quantum Physics and Logic, Amsterdam (2026), short plenary
+- *Positive maps and extendibility hierarchies from copositive matrices*, Theory of Quantum Computation, Communication and Cryptography (TQC), Sherbrooke, Canada (2026, upcoming)
+- *Detecting entanglement in symmetric states*, [Quantum Trajectories](https://www.icts.res.in/program/qt), ICTS Bengaluru (2025) ([slides](https://www.icts.res.in/sites/default/files/seminar%20doc%20files/ICTS_Presentation%20-%20Aabhas%20Gulati.pdf))
+- *Graph based approach to detecting bound entanglement*, Young Researcher Symposium, ICMP, Strasbourg (2024)
 
-- *Symmetric states and PPT entanglement*, [Quantum Trajectories](https://www.icts.res.in/program/qt), ICTS Bengaluru ([slides](https://www.icts.res.in/sites/default/files/seminar%20doc%20files/ICTS_Presentation%20-%20Aabhas%20Gulati.pdf))
+## Seminars
+
+- *Entanglement in the Dicke subspace*, QMATH group, University of Copenhagen (May 2026)
+- *Entanglement in the Dicke subspace*, Séminaire QuantAlps, Institut Fourier, Grenoble (May 2026)
+- *Entanglement in the Dicke subspace*, Séminaire LABRI, Bordeaux (May 2026)
+- *Multipartite entanglement in mixtures of Dicke states*, [GIQ Seminar](https://webs.uab.cat/giq/seminar/a-complete-theory-of-multipartite-entanglement-in-diagonally-symmetric-bosonic-states/), Universitat Autònoma de Barcelona (September 2025)
+- *Multipartite entanglement in diagonally symmetric states*, Quantum Information and Thermodynamics group, [TU Wien](https://quoi-theory.at/) (August 2025)
 
 :::
