@@ -14,7 +14,7 @@ page-layout: custom
 
 PhD student in the [TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) team, Toulouse.
 
-Supervised by [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://ion.nechita.net/).
+Supervised by [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://perso.math.univ-toulouse.fr/pellegrini/).
 
 [CV](AabhasGulati_CV.pdf){.pill target="_blank"} [Google Scholar](https://scholar.google.com/citations?user=rLWFe7gAAAAJ&hl=en){.pill target="_blank"} [Bluesky](https://bsky.app/profile/aabhasgulati.bsky.social){.pill target="_blank"}
 :::
