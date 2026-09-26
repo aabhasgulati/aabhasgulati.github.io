@@ -2,6 +2,7 @@
 title: ""
 pagetitle: "Research"
 page-layout: custom
+description: "Publications and preprints by Aabhas Gulati on entanglement, symmetric quantum states, and copositive tensors."
 ---
 
 ::: {.page}

@@ -4,6 +4,13 @@ project:
 
 website:
   title: "Aabhas Gulati"
+  site-url: "https://aabhasgulati.github.io"
+  description: "Aabhas Gulati is a PhD student at Institut de Mathématiques de Toulouse working on quantum information theory: entanglement, symmetry in quantum states, and polynomial optimization."
+  open-graph:
+    image: profile.webp
+  twitter-card:
+    card-style: summary
+    image: profile.webp
   page-navigation: false
   search: false
   navbar:

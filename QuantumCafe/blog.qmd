@@ -2,6 +2,7 @@
 title: ""
 pagetitle: "Musings"
 page-layout: custom
+description: "Musings by Aabhas Gulati on quantum information, entropy and resource theories."
 listing:
   contents: posts
   type: table

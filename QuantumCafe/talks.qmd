@@ -2,6 +2,7 @@
 title: ""
 pagetitle: "Talks"
 page-layout: custom
+description: "Conference and seminar talks by Aabhas Gulati on multipartite entanglement in symmetric and bosonic quantum states."
 ---
 
 ::: {.page}

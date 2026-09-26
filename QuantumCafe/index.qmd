@@ -2,6 +2,7 @@
 title: ""
 pagetitle: "Aabhas Gulati"
 page-layout: custom
+description: "Aabhas Gulati is a PhD student at Institut de Mathématiques de Toulouse working on quantum information theory: entanglement, symmetry in quantum states, and polynomial optimization."
 ---
 
 ::: {.home}
