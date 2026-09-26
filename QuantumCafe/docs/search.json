@@ -32,13 +32,13 @@
     "href": "index.html#about",
     "title": "Aabhas Gulati",
     "section": "About",
-    "text": "About\nI work on quantum information theory. My thesis lies at the intersection of\n\nEntanglement\nSymmetry in quantum states\nPolynomial optimization\n\nMore broadly, I am interested in:\n\nEntanglement theory: bound entanglement, Schmidt numbers, resource theory of entanglement\nQuantum Shannon theory\nProblems involving tensors and graphs"
+    "text": "About\nI work on quantum information theory. My thesis lies at the intersection of\n\nEntanglement\nSymmetry in quantum states\nPolynomial optimization\n\nMore broadly, I am interested in:\n\nEntanglement theory: bound entanglement, Schmidt numbers, resource theory of entanglement\nProblems involving tensors and graphs"
   },
   {
     "objectID": "index.html#recent",
     "href": "index.html#recent",
     "title": "Aabhas Gulati",
     "section": "Recent",
-    "text": "Recent\n\nPreprint: Entanglement in the Dicke subspace, with Ion Nechita and Clement Pellegrini.\nTalk: A complete theory of multipartite entanglement in diagonally symmetric bosonic states, GIQ Seminar, Universitat Autònoma de Barcelona.\nPaper: Rank-based entanglement detection for bound entangled states, Phys. Rev. A 113, 022415."
+    "text": "Recent\nPreprint: Entanglement in the Dicke subspace, with Ion Nechita and Clement Pellegrini.\nWe build a complete theory of entanglement for mixtures of Dicke states by encoding them as symmetric tensors, which links separability, PPT and entanglement witnesses to well-studied cones of tensors. As an application, we construct explicit PPT entangled states of three or more qutrits."
   }
 ]
