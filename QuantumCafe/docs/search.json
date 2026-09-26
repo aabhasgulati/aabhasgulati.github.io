@@ -18,7 +18,7 @@
     "href": "talks.html#conferences",
     "title": "Aabhas Gulati",
     "section": "Conferences",
-    "text": "Conferences\n\nEntanglement in the Dicke subspace, Quantum Physics and Logic, Amsterdam (2026), short plenary\nPositive maps and extendibility hierarchies from copositive matrices, Theory of Quantum Computation, Communication and Cryptography (TQC), Sherbrooke, Canada (2026, upcoming)\nDetecting entanglement in symmetric states, Quantum Trajectories, ICTS Bengaluru (2025) (slides)\nGraph based approach to detecting bound entanglement, Young Researcher Symposium, ICMP, Strasbourg (2024)"
+    "text": "Conferences\n\nEntanglement in the Dicke subspace, Quantum Physics and Logic, Amsterdam (2026), short plenary\nPositive maps and extendibility hierarchies from copositive matrices, Theory of Quantum Computation, Communication and Cryptography (TQC), Sherbrooke, Canada (2026)\nDetecting entanglement in symmetric states, Quantum Trajectories, ICTS Bengaluru (2025) (slides)\nGraph based approach to detecting bound entanglement, Young Researcher Symposium, ICMP, Strasbourg (2024)"
   },
   {
     "objectID": "talks.html#seminars",
@@ -32,7 +32,7 @@
     "href": "research.html#preprints",
     "title": "Aabhas Gulati",
     "section": "Preprints",
-    "text": "Preprints\n\nPositive maps and extendibility hierarchies from copositive matrices with Ion Nechita and Sang-Jun Park"
+    "text": "Preprints\n\nOptimal entanglement criteria from trace invariants with Bivas Mallick and Ion Nechita\nPositive maps and extendibility hierarchies from copositive matrices with Ion Nechita and Sang-Jun Park"
   },
   {
     "objectID": "research.html#published",
@@ -53,6 +53,6 @@
     "href": "index.html#recent",
     "title": "Aabhas Gulati",
     "section": "Recent",
-    "text": "Recent\nPaper: Entanglement in the Dicke subspace, with Ion Nechita and Clement Pellegrini, in Quantum 10, 2150 (2026).\nWe connect the entanglement properties of mixtures of Dicke states to convex cones of completely positive and copositive tensors and their relaxations."
+    "text": "Recent\nPreprint: Optimal entanglement criteria from trace invariants, with Bivas Mallick and Ion Nechita.\nUsing convex duality, we find the best entanglement criteria that can be built from finitely many trace invariants of a state, the quantities accessible through randomized measurements.\nPaper: Entanglement in the Dicke subspace, with Ion Nechita and Clement Pellegrini, in Quantum 10, 2150 (2026).\nWe connect the entanglement properties of mixtures of Dicke states to convex cones of completely positive and copositive tensors and their relaxations."
   }
 ]

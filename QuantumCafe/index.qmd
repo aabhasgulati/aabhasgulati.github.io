@@ -37,6 +37,10 @@ More broadly, I am interested in:
 
 ## Recent
 
+**Preprint:** [Optimal entanglement criteria from trace invariants](https://arxiv.org/abs/2609.29471), with Bivas Mallick and Ion Nechita.
+
+Using convex duality, we find the best entanglement criteria that can be built from finitely many trace invariants of a state, the quantities accessible through randomized measurements.
+
 **Paper:** [Entanglement in the Dicke subspace](https://arxiv.org/abs/2602.15800), with Ion Nechita and Clement Pellegrini, in Quantum 10, 2150 (2026).
 
 We connect the entanglement properties of mixtures of Dicke states to convex cones of completely positive and copositive tensors and their relaxations. 

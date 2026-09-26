@@ -10,6 +10,7 @@ page-layout: custom
 
 ## Preprints
 
+- [Optimal entanglement criteria from trace invariants](https://arxiv.org/abs/2609.29471) with Bivas Mallick and Ion Nechita
 - [Positive maps and extendibility hierarchies from copositive matrices](https://arxiv.org/abs/2509.15201) with Ion Nechita and Sang-Jun Park
 
 ## Published
