@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aabhasgulati.github.io/posts/convertibility-structures/index.html</loc>
-    <lastmod>2026-09-26T16:13:25.834Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aabhasgulati.github.io/posts/gibbs-paradox/index.html</loc>
-    <lastmod>2026-09-26T16:13:26.274Z</lastmod>
-  </url>
-  <url>
     <loc>https://aabhasgulati.github.io/blog.html</loc>
-    <lastmod>2026-09-26T16:13:26.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aabhasgulati.github.io/talks.html</loc>
-    <lastmod>2026-09-26T16:13:27.082Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aabhasgulati.github.io/research.html</loc>
-    <lastmod>2026-09-26T16:13:27.446Z</lastmod>
+    <lastmod>2026-09-29T16:11:56.617Z</lastmod>
   </url>
   <url>
     <loc>https://aabhasgulati.github.io/index.html</loc>
-    <lastmod>2026-09-26T16:13:27.790Z</lastmod>
+    <lastmod>2026-09-29T16:11:56.977Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aabhasgulati.github.io/research.html</loc>
+    <lastmod>2026-09-29T16:11:57.377Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aabhasgulati.github.io/talks.html</loc>
+    <lastmod>2026-09-29T16:11:57.705Z</lastmod>
   </url>
 </urlset>
