@@ -78,9 +78,13 @@ a:hover {
   gap: 2.5rem;
   margin: 2.5rem 0 2rem;
 }
+/* Quarto wraps the image in a <p>; keep that wrapper from shrinking in the flex row */
+.hero > p:first-child { flex-shrink: 0; margin: 0; }
 .hero .portrait {
   width: 210px;
   height: 210px;
+  max-width: none;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 6px 24px rgba(20, 40, 60, 0.15);
