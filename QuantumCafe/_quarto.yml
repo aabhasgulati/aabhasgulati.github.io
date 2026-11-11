@@ -8,7 +8,7 @@ project:
 website:
   title: "Aabhas Gulati"
   site-url: "https://aabhasgulati.github.io"
-  description: "Aabhas Gulati is a PhD student at Institut de Mathématiques de Toulouse working on quantum information theory: entanglement, symmetry in quantum states, and polynomial optimization."
+  description: "Aabhas Gulati is a postdoc in the Networks & Optimization group at CWI, Amsterdam, working on quantum information theory: entanglement, symmetry in quantum states, and polynomial optimization."
   open-graph:
     image: profile.webp
   twitter-card:
