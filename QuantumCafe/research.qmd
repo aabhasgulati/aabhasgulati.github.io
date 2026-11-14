@@ -9,6 +9,10 @@ description: "Publications and preprints by Aabhas Gulati on entanglement, symme
 
 # Research
 
+## PhD thesis
+
+- [Entanglement in Symmetric Quantum States](AabhasGulati_PhD_Thesis.pdf){target="_blank"}, Université de Toulouse, defended 14 September 2026, supervised by Ion Nechita and Clément Pellegrini
+
 ## Preprints
 
 - [Optimal entanglement criteria from trace invariants](https://arxiv.org/abs/2609.29471) with Bivas Mallick and Ion Nechita

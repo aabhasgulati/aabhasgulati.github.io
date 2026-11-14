@@ -17,7 +17,7 @@ Postdoc in the [Networks & Optimization](https://www.cwi.nl/en/research/networks
 
 PhD from the [TIQTOQS](https://quantum-information-open-quantum-system.pages.math.cnrs.fr/) team, Toulouse, supervised by [Ion Nechita](https://ion.nechita.net/) and [Clement Pellegrini](https://perso.math.univ-toulouse.fr/pellegrini/).
 
-[CV](AabhasGulati_CV.pdf){.pill target="_blank"} [Google Scholar](https://scholar.google.com/citations?user=rLWFe7gAAAAJ&hl=en){.pill target="_blank"} [Bluesky](https://bsky.app/profile/aabhasgulati.bsky.social){.pill target="_blank"}
+[CV](AabhasGulati_CV.pdf){.pill target="_blank"} [PhD Thesis](AabhasGulati_PhD_Thesis.pdf){.pill target="_blank"} [Google Scholar](https://scholar.google.com/citations?user=rLWFe7gAAAAJ&hl=en){.pill target="_blank"} [Bluesky](https://bsky.app/profile/aabhasgulati.bsky.social){.pill target="_blank"}
 :::
 :::
 
